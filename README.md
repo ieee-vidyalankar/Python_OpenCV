@@ -1,4 +1,4 @@
-# Python_OpenCV
+# Python_OpenCV :snake:
 
 2018-2019
 
