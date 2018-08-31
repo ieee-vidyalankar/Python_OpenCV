@@ -74,3 +74,10 @@ fruits = ["Apple","Pear","Cheery"]
 for x in color:
 	for y in fruits:
 		print(x,y)
+#8. Append even numbers in empty list using 'for' and 'if' 
+list=[]
+for everyVal in range(0,10):
+	if everyVal%2==0:
+		list.append(everyVal)
+print(list)
+print(len(list))
