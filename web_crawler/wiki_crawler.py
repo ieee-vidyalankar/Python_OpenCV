@@ -3,8 +3,8 @@ from bs4 import BeautifulSoup
 import urllib
 import time
 
-target_url ='https://en.wikipedia.org/wiki/Knowledge'
-start_url ="https://en.wikipedia.org/wiki/Obama"
+target_url ='https://en.wikipedia.org/wiki/Science'
+start_url ="https://en.wikipedia.org/wiki/Sachin_Tendulkar"
 
  #############################
 def find_first_link(url):
