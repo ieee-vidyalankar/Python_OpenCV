@@ -18,6 +18,7 @@ Click the link [here](https://www.python.org/downloads/release/python-371/)
 1. Installation via command line:
 
 >conda install -c menpo opencv(for windows)
+
 >python -m pip install opencv-python(for Mac)
 
 2. For users with OS other than the Windows and MAC OS [click here](https://docs.opencv.org/2.4/doc/tutorials/introduction/table_of_content_introduction/table_of_content_introduction.html#table-of-content-introduction) for installation details
