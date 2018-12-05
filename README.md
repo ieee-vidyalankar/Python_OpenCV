@@ -35,7 +35,7 @@ We do require libraries like Matplotlib which do come pre-installed with anacond
 ### Note:: This repository does contain certain basic scripts for getting started with programming in python 
 
 ## Getting started with Opencv
-The Opencv Py :folder: does contain various basic scripts and small projects demonstaring the use of opencv in python 
+The Opencv Py :file_folder: does contain various basic scripts and small projects demonstaring the use of opencv in python 
 for the demonstartion we have used opencv3 so start experimenting with these scripts Happy learning
 
 ### Note: make sure the image files are in the same directory as opencv won't throwup error for it instead it will give a blacked screen output
