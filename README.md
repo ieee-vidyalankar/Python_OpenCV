@@ -16,11 +16,11 @@ Click the link [here](https://www.python.org/downloads/release/python-371/)
 [click here](https://repo.continuum.io/archive/) to download Anaconda3
 
 1. Installation via command line:
+```
+conda install -c menpo opencv(for windows)
 
->conda install -c menpo opencv(for windows)
-
->python -m pip install opencv-python(for Mac)
-
+python -m pip install opencv-python(for Mac)
+```
 2. For users with OS other than the Windows and MAC OS [click here](https://docs.opencv.org/2.4/doc/tutorials/introduction/table_of_content_introduction/table_of_content_introduction.html#table-of-content-introduction) for installation details
 
 ## Downloading Haarcascade classifiers :
@@ -29,9 +29,9 @@ For projects involving face and eye detection we need the .XML files which are a
 
 ## Other requirements
 We do require libraries like Matplotlib which do come pre-installed with anaconda but just in case you missed run the following command 
-
->pip install matplotlib
-
+```
+pip install matplotlib
+```
 ### Note:: This repository does contain certain basic scripts for getting started with programming in python 
 
 ## Getting started with Opencv
