@@ -1,13 +1,23 @@
 import cv2
 import numpy as np
 from matplotlib import pyplot as plt
+
+#read image from the directory and get the shape
+img = cv2.imread("dragon.jpg")
+rows, cols, ch = img.shape
  
-#read image and get the shape  
+#mark the points of transformation
+cv2.circle(img, (83, 90), 5, (255, 0, 0), -1)
+cv2.circle(img, (447, 90), 5, (255, 0, 0), -1)
+cv2.circle(img, (83, 472), 5, (255, 0, 0), -1)
+ 
+#points where Affine transformation occurs
+pts1 = np.float32([[83, 90], [447, 90], [83, 472]])
+pts2 = np.float32([[0, 0], [447, 90], [150, 472]])
 
-#mark the coordinates
-
-#transforation points
-
-#do the transformation
-
-#show the result
+matrix = cv2.getAffineTransform(pts1, pts2)
+result = cv2.warpAffine(img, matrix, (cols, rows))
+ 
+plt.subplot(121),plt.imshow(img),plt.title('Input')
+plt.subplot(122),plt.imshow(result),plt.title('Output')
+plt.show()
